@@ -1,7 +1,7 @@
 # backyard
 
 A boilerplate for spinning up a production-ready backend environment
-on a VPS. Docker, Postgres, Redis, Node.js 22 — configured and wired
+on a VPS. Docker, Postgres, Redis, Node.js — configured and wired
 together. Clone it, run one script, start building.
 
 Includes a working Telegram bot as the example app. When /ping returns
