@@ -13,8 +13,6 @@ pong, your entire stack is working.
 
 On a fresh Ubuntu VPS:
 
-    git clone https://github.com/yourusername/backyard.git
-    cd backyard
     bash setup.sh
 
 Then edit .env:
@@ -53,12 +51,12 @@ any step that is already complete.
 
 ## Stack
 
-Postgres 15 — primary database. Data persists in a Docker volume.
+Postgres — primary database. Data persists in a Docker volume.
 
-Redis 7 — cache and pub/sub. Password protected. Data persists
+Redis — cache and pub/sub. Password protected. Data persists
 in a Docker volume.
 
-Node.js 22 — runtime for all apps. Alpine base image for small
+Node.js — runtime for all apps. Alpine base image for small
 container size.
 
 ---
