@@ -1,0 +1,12 @@
+{
+  "name": "backyard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "up": "docker compose up -d",
+    "down": "docker compose down",
+    "nuke": "docker compose down -v",
+    "logs": "docker compose logs -f",
+    "setup": "bash setup.sh"
+  }
+}
